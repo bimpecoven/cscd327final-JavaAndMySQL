@@ -1,0 +1,51 @@
+    
+     ----jGRASP exec: java TestMyQuery
+    ******** Query 0 ********
+    Crime_ID	Charge_Date
+    10085		2008-09-03
+    10086		2008-10-20
+    10089		2008-10-22
+    10090		2008-10-22
+    10093		2008-10-22
+    ******** Query 1 ********
+    Last, First, count
+    Hart, Leigh, 9
+    ******** Query 2 ********
+    Charge_ID
+    5000
+    ******** Query 3 ********
+    FIRST, LAST
+    Sam, Phelps
+    Dave, Caulk
+    Cart, Perry
+    Tommy, Cat
+    Tim, Simon
+    Reed, Pints
+    Nancy, Mansville
+    Penny, Statin
+    Lee, Panner
+    ******** Query 4 ********
+    Criminal_ID, Last,   First, Count_Sentence
+    1030,        Panner, Lee,   2
+    ******** Query 5 ********
+    Precinct, Charge_Count
+    WAVE,     8
+    ******** Query 6 ********
+    Criminal_ID, First, Last, Earliest_Start_Date, Latest_End_Date
+    1020,        Sam, Phelps, 2008-09-15,        2010-09-15
+    1021,        Tammy, Sums, 2008-12-05,        2009-06-05
+    1022,        Dave, Caulk, 2009-03-20,        2009-08-20
+    1024,        Cart, Perry, 2008-12-20,        2009-03-20
+    1025,        Tommy, Cat, 2008-12-20,        2009-03-20
+    1026,        Tim, Simon, 2008-12-20,        2009-03-20
+    1027,        Reed, Pints, 2008-12-20,        2009-03-20
+    1028,        Nancy, Mansville, 2008-12-20,        2009-03-20
+    1029,        Penny, Statin, 2008-12-20,        2009-02-05
+    1030,        Lee, Panner, 2008-12-20,        2009-07-06
+    ******** Query 7 ********
+    Please enter the officer_id for the query: 
+    111115
+    Officer 111115 has reported 9 crimes.
+    
+     ----jGRASP: operation complete.
+    
